@@ -1,0 +1,127 @@
+
+.yellow{
+
+    background-color: #fdd000;
+    height: 300px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.yellow>div{
+    margin-top: 73px;
+    margin-left: 55px;
+    border-radius: 73px;
+    background-color: white;
+    height: 125px;
+    width: 125px;
+    padding: 30px;
+}
+.yellow>div>div{
+    position: relative;
+    top: 50px;
+    text-align: center;
+}
+.about{
+    padding-left: 23%;
+    padding-top: 45px;
+    font-size: xxx-large;
+}
+.home{
+
+    color: aliceblue;
+    font-size: xxx-large;
+    padding-left: 23%;
+    padding-top: 62px;
+    line-height: 1.1;
+
+}
+.flex-container-buttons {
+    display: flex;
+    flex-wrap: nowrap;
+    font-size: x-large;
+    position:relative;
+    top:40px;
+
+  }
+  .flex-container-buttons>div{
+    border-color: white;
+    border-style: solid;
+padding: 10px;
+border-width: medium;
+cursor: pointer;
+transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+width: 220px;
+
+padding-left: 40px;
+
+  } 
+ .flex-container-buttons>div:hover {
+    background-color: black;
+    border-color: #fdd000;
+    color: #fdd000;
+  }
+  .flex-container-people {
+    display: flex;
+    flex-wrap: nowrap;
+  justify-content: center;
+  }
+  
+  .flex-container-people > div {
+    margin-top: 43px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    margin-left: 60px;
+  }
+
+  .flex-container-about {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+  
+  .flex-container-about > div {
+    width: 511px;
+    margin-left: 56px;
+    margin-top: 49px;
+    text-align: justify;
+    font-size: 20px;
+    padding-bottom: 19px;
+  }
+  .contact{
+    background-color: #393939;
+    color: white;
+    padding-top: 40px;
+    padding-left: 23%;
+    font-size: xxx-large;
+    height: 187px;
+  }
+.footer{
+    padding-left: 35%;
+    padding-top: 30px;
+    height: 67px;
+}
+.image{
+    background-image: url("./pic.jpg"); 
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height:500px; overflow-y: hidden;
+}
+@media only screen and (max-width: 644px) {
+    .home{
+        padding-left: 3%;
+        font-size: xx-large;
+    }
+    .flex-container-buttons>div{
+        padding-left: 10px;
+        width: 123px;
+        font-size: medium;
+    }
+    .image{
+        height: 383px;
+    }
+  }
+.adjust{
+    position: relative;
+    right: -12px;
+}

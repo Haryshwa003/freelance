@@ -1,0 +1,25 @@
+.yellow{
+    background-color: #fdd000;
+    height: 160px;
+    padding-left: 28%;
+    padding-top: 34px;
+    font-size: xxx-large;
+    line-height: 44px;
+}
+.image{
+    width: 100%;
+    height:600px
+}
+.flex-container-JOBS {
+    display: flex;
+    background-color: DodgerBlue;
+        justify-content: space-around;
+      flex-wrap: wrap;
+  }
+  
+  .flex-container-JOBS > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
